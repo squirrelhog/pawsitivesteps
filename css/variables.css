@@ -1,0 +1,36 @@
+/* CSS Variables - Beach Palette */
+:root {
+    --ocean-deep: #1a5f7a;
+    --ocean-light: #57c5b6;
+    --ocean-foam: #a7e8e0;
+    --sand-light: #fef9ef;
+    --sand-warm: #f5e6d3;
+    --sand-deep: #d4a574;
+    --sunset-coral: #ff6b6b;
+    --sunset-orange: #ffa726;
+    --sunset-pink: #ffab91;
+    --driftwood: #8b7355;
+    --shell-white: #fffaf5;
+    --text-dark: #2c3e50;
+    --text-medium: #5a6c7d;
+    --text-light: #8896a4;
+    --gradient-ocean: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-light) 100%);
+    --gradient-sunset: linear-gradient(135deg, var(--sunset-coral) 0%, var(--sunset-orange) 100%);
+    --gradient-sand: linear-gradient(180deg, var(--sand-light) 0%, var(--sand-warm) 100%);
+    --gradient-hero: linear-gradient(135deg, rgba(26, 95, 122, 0.9) 0%, rgba(87, 197, 182, 0.8) 100%);
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 5rem;
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+    --shadow-soft: 0 4px 20px rgba(26, 95, 122, 0.1);
+    --shadow-medium: 0 8px 30px rgba(26, 95, 122, 0.15);
+    --shadow-strong: 0 12px 40px rgba(26, 95, 122, 0.2);
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}

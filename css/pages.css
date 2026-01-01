@@ -1,0 +1,27 @@
+/* Page Headers */
+.page-header { background: var(--gradient-ocean); color: white; padding: calc(80px + var(--spacing-xl)) 0 var(--spacing-xl); text-align: center; position: relative; overflow: hidden; }
+.page-header::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23fef9ef' d='M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E") no-repeat bottom; background-size: cover; }
+.page-header h1 { color: white; margin-bottom: var(--spacing-sm); }
+.page-header p { color: rgba(255, 255, 255, 0.9); font-size: 1.25rem; }
+.breadcrumbs { display: flex; justify-content: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); font-size: 0.875rem; }
+.breadcrumbs a { color: rgba(255, 255, 255, 0.7); }
+.breadcrumbs a:hover { color: white; }
+.breadcrumbs span { color: rgba(255, 255, 255, 0.5); }
+/* Services Page */
+.services-page .services-grid { margin-bottom: var(--spacing-xl); }
+.pricing-note { background: var(--ocean-foam); padding: var(--spacing-lg); border-radius: var(--radius-md); text-align: center; }
+.pricing-note h3 { margin-bottom: var(--spacing-sm); }
+/* About Page */
+.about-page-content { padding: var(--spacing-xl) 0; }
+.about-full { display: grid; grid-template-columns: 1fr 2fr; gap: var(--spacing-xl); margin-bottom: var(--spacing-xl); }
+.about-sidebar { position: sticky; top: 100px; height: fit-content; }
+.profile-card { background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-medium); text-align: center; }
+.profile-image { width: 100%; height: 300px; object-fit: cover; }
+.profile-info { padding: var(--spacing-lg); }
+.profile-info h3 { margin-bottom: var(--spacing-xs); }
+.profile-info .role { color: var(--ocean-light); font-weight: 500; margin-bottom: var(--spacing-md); }
+.about-main h2 { margin-bottom: var(--spacing-md); }
+.about-main p { margin-bottom: var(--spacing-md); }
+.values-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md); margin-top: var(--spacing-lg); }
+.value-card { background: var(--sand-light); padding: var(--spacing-md); border-radius: var(--radius-md); }
+.value-card h4 { display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-sm); }
